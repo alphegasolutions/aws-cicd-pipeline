@@ -88,7 +88,7 @@ resource "aws_codepipeline" "pipeline" {
         owner            = "AWS"
         input_artifacts  = [ "tf-code" ]
         configuration    = {
-          ProjectName = "cicd-plan"
+          ProjectName = "plan"
         }
     }
   }
